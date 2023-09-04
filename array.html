@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menambah Array</title>
+</head>
+<body>
+    <script>
+        const names= [];
+        names.push("eko");
+        names.push("Kurniawan", "Khannedy");
+        
+        //operasi Array
+        //array.push(value) menambah data ke array
+        //array.length mendapatkan panjang array
+        //array[index] mendapat data di posisi index
+        // array[index]= value mengubah data di posisi index
+        //delete array[index] menghapus data di posisi index namun index tidak bergeser
+        names[0]= "budi";
+        delete names[1];
+        names.push("diyah");
+        console.table(names);
+        console.info(names.length);
+    </script>
+</body>
+</html>
